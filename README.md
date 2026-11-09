@@ -37,7 +37,7 @@ pipx ensurepath
 Open a new terminal, then:
 
 ```bash
-pipx install git+https://github.com/YOUR_USERNAME/ztadd.git
+pipx install git+https://github.com/codexifyim/ztadd.git
 ```
 
 ### Linux
@@ -53,7 +53,7 @@ pipx ensurepath
 Then install:
 
 ```bash
-pipx install git+https://github.com/YOUR_USERNAME/ztadd.git
+pipx install git+https://github.com/codexifyim/ztadd.git
 ```
 
 If you do not have sudo access, use the pipx installation method documented for your Linux distribution/user environment.
@@ -108,7 +108,7 @@ pipx uninstall zotero-add-cli
 ## Install from a local clone (development)
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/ztadd.git
+git clone https://github.com/codexifyim/ztadd.git
 cd ztadd
 python -m pip install -e .
 ```
@@ -142,7 +142,7 @@ The `--collection` argument requires a Zotero collection key, not its visible na
 ## Development
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/ztadd.git
+git clone https://github.com/codexifyim/ztadd.git
 cd ztadd
 python -m venv .venv
 ```
