@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "zotero-add-cli"
+version = "1.0.0"
+description = "Search Crossref and import research papers into Zotero"
+readme = "README.md"
+requires-python = ">=3.9"
+license = { file = "LICENSE" }
+dependencies = [
+    "requests",
+    "bibtexparser>=1.0,<2.0",
+    "pyzotero"
+]
+
+[project.scripts]
+ztadd = "ztadd_add.cli:main"
+
+[tool.setuptools]
+packages = ["ztadd_add"]
